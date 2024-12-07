@@ -49,18 +49,3 @@ body {
 	outline: 0;
 	font-size: 24px;
 }
-
-.container button {
-	border: 0;
-	outline: 0;
-	background: #019f55;
-	color: #fff;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-weight: 300;
-	border-radius: 5px;
-	padding: 16px 26px;
-	font-size: 22px;
-	cursor: pointer;
-}
