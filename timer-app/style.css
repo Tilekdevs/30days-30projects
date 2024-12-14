@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&family=Playfair+Display:ital,wght@1,400..900&display=swap');
+
+body {
+	background: #edeaff;
+	font-family: "Courier Prime", monospace;
+}
+
+.timer {
+	width: 90%;
+	max-width: 600px;
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(assets/images.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	padding: 40px 0;
+	color: #fff;
+	margin: 200px auto 0;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.8);
+}
+
+.timer h1 {
+	margin-top: 60px;
+	font-size: 64px;
+	font-weight: 300;
+}
+
+.buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+i {
+	border: 1px solid #fff;
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+	margin: 0 20px;
+	cursor: pointer;
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+
+i:nth-child(2) {
+	display: flex;
+	align-items: center;
+	background: orange;
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+}
