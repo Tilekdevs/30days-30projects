@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--primary-color: #000106;
+	--dark-color: #fff;
+}
+
+.dark-theme {
+	--primary-color: #fff;
+	--dark-color: #000106;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100vh;
+  background-color: var(--dark-color);
+  color: var(--primary-color);
+  font-family: Arial, sans-serif;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+	border-radius: 5px;
+  cursor: pointer;
+  margin: 20px;
+	background-color: var(--primary-color);
+	color: var(--dark-color);
+	transition: background-color 0.3s, color 0.3s;
+}
