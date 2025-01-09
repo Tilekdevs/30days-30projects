@@ -13,6 +13,7 @@ for(lists of lists) {
 			rightBox.appendChild(selected)
 			selected = null
 		})
+		
 		leftBox.addEventListener('dragover', e => {
 			e.preventDefault()
 		})
