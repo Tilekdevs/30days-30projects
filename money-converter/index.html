@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Currency Converter</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<form class="converter">
+			<div class='fromConverter'>
+				<select name="fromSelectMoney" id="fromSelectMoney"></select>
+				<input type="number" id='fromAmount' placeholder="Введите сумму">
+			</div>
+			<button id='reverseMoney' type="button">Поменять</button>
+			<div class='toConverter'>
+				<select name="toSelectMoney" id="toSelectMoney"></select>
+				<input type="number" id='toAmount' placeholder="Конвертированная сумма">
+			</div>
+		</form>
+	</div>
+
+	<script src="index.js"></script>
+</body>
+</html>
